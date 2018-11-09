@@ -1,0 +1,32 @@
+{
+    "workbench.colorTheme": "Monokai Dimmed"
+    //Monokai 
+    // Controls the font weight.
+    "editor.fontWeight": "100",
+
+    // Controls the font size in pixels.
+    "editor.fontSize": 20,
+
+    // When opening a file, `editor.tabSize` and `editor.insertSpaces` will be detected based on the file contents.
+    "editor.detectIndentation": false,
+   
+    // Controls if files should open in a new window.
+    // - default: files will open in the window with the files' folder open or the last active window unless opened via the dock or from finder (macOS only)
+    // - on: files will open in a new window
+    // - off: files will open in the window with the files' folder open or the last active window
+    // Note that there can still be cases where this setting is ignored (e.g. when using the -new-window or -reuse-window command line option).
+    "window.openFilesInNewWindow": "on",
+
+    // Controls the dimensions of opening a new window when at least one window is already opened. Note that this setting does not have an impact on the first window that is opened. The first window will always restore the size and location as you left it before closing.
+    //  - default: Open new windows in the center of the screen.
+    //  - inherit: Open new windows with same dimension as last active one.
+    //  - maximized: Open new windows maximized.
+    //  - fullscreen: Open new windows in full screen mode.
+    "window.newWindowDimensions": "on",
+
+    // Controls whether opened editors show as preview. Preview editors are reused until they are kept (e.g. via double click or editing) and show up with an italic font style.
+    "workbench.editor.enablePreview": false,
+
+    // Controls if the minimap is shown
+    "editor.minimap.enabled": false,
+}
